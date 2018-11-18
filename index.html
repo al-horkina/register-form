@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form action="" method="post" class="register-form">
+    <fieldset class="register-group">
+        <label for="Name">Name</label> <input id="Name" type="text" placeholder="Full Name" required>
+        <label for="Email">Email</label> <input id="Email" type="email" placeholder="Email Address" required>
+        <label for="Passes">Number of Passes</label>
+        <select name="Passes" id="Passes">
+            <option value="1" name="opt">1</option>
+            <option value="2" name="opt">2</option>
+            <option value="3" name="opt">3</option>
+            <option value="4" name="opt">4</option>
+            <option value="5" name="opt">5</option>
+        </select>
+        <label for="comments">Comments</label> <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+
+    </fieldset>
+    <button type="submit" class="btn">Purchase</button>
+
+    <fieldset class="checkbox-group">
+        <label for="range"></label><input id="range" name="" type="range">
+        <input class="check-input" id="ch1" name="list" type="checkbox">
+        <label class="check-label" for="ch1"><span>1</span></label>
+        <input class="check-input" id="ch2" name="list" type="checkbox">
+        <label class="check-label" for="ch2"><span>2</span></label>
+        <input class="check-input" id="ch3" name="list" type="checkbox">
+        <label class="check-label" for="ch3"><span>3</span></label>
+    </fieldset>
+
+</form>
+
+</body>
+</html>
